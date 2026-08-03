@@ -1,0 +1,135 @@
+{
+    "version": 1,
+    "name": "FpsPlayerController",
+    "maps": [
+        {
+            "name": "FpsPlyrCtlr",
+            "id": "afe1b79e-20c5-4fde-935d-b7c92c3a8960",
+            "actions": [
+                {
+                    "name": "playerMovement",
+                    "type": "Value",
+                    "id": "ad1534e7-7b41-4c26-8b60-17c562d584c3",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "5127379b-44b5-4d37-ac6e-826640fd2260",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "playerMovement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "624fdee2-a321-42cd-a1c2-1d31c0405ea4",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "playerMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "5d76e0a0-443e-4ac9-b4d3-e6593fd97147",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "playerMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "c82bf25b-62cf-476c-8ec8-46f5ee234797",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "playerMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "2945e32b-77c1-4ac0-8c6a-8cbcfbc6c444",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "playerMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Look",
+            "id": "85d18dab-6057-44b1-af7b-816a6347bdd1",
+            "actions": [
+                {
+                    "name": "Player look",
+                    "type": "Value",
+                    "id": "90c99d38-2d2d-4276-b74c-155c02b280ec",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3a828d64-6501-437c-9ec3-d4d59c84fcd2",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Jump",
+            "id": "5b659ccb-6605-40f5-9ab4-25d2d91ab02a",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "b58eeec1-37d2-4537-8da5-7c56a1c28419",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ac2df79e-b507-43e5-86f1-8a994e8c153d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
