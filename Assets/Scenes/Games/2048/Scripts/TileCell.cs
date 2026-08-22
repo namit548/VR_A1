@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TileCell : MonoBehaviour
+public class TilesCell : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
